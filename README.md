@@ -1,3 +1,3 @@
-# DOTFILES Reopsitory
+# 4015 dotfiles repository
 
-This repo conatains symlinks to my dotfiles
+This repository contains symlinks to my dotfiles

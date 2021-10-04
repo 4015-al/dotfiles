@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+d",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "ctrl+shift+[Backquote]",
+        "command": "openInTerminal"
+    },
+    {
+        "key": "ctrl+t l",
+        "command": "editor.action.transformToLowercase"
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t s",
+        "command": "editor.action.transformToSnakecase"
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t t",
+        "command": "editor.action.transformToTitlecase"
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t u",
+        "command": "editor.action.transformToUppercase"
+        "when": "editorTextFocus"
+    }
+]

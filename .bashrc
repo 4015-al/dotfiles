@@ -141,5 +141,4 @@ export DOTNET_CLI_TELEMETRY_OPTOUT="1"
 
 # Consulo
 
-export CONSULO_HOME
-
+export CONSULO_HOME="$HOME/Programs/IDE/consulo/consulo-linux64_2947/Consulo"

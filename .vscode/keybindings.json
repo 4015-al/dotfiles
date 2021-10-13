@@ -1,5 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
+    // debug
     {
         "key": "ctrl+shift+d",
         "command": "workbench.view.debug",
@@ -10,10 +11,14 @@
         "command": "-workbench.view.debug",
         "when": "viewContainer.workbench.view.debug.enabled"
     },
+
+    // open internal terminal
     {
         "key": "ctrl+shift+[Backquote]",
         "command": "openInTerminal"
     },
+
+    // transform text to lower|snake|title|upper case
     {
         "key": "ctrl+t l",
         "command": "editor.action.transformToLowercase"

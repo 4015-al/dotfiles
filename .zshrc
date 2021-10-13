@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-## Keys binding
+# Keys binding
 # bind Up/Down keys to saerch history
 # @ https://unix.stackexchange.com/a/122775/494966
 bindkey '\eOA' history-beginning-search-backward
@@ -109,3 +109,8 @@ bindkey '\eOB' history-beginning-search-forward
 bindkey '\e[B' history-beginning-search-forward
 # biin ctrl+u to backward-kill-line
 bindkey \^U backward-kill-line
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

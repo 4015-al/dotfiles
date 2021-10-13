@@ -100,9 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+## Keys binding
 # bind Up/Down keys to saerch history
 # @ https://unix.stackexchange.com/a/122775/494966
 bindkey '\eOA' history-beginning-search-backward
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\eOB' history-beginning-search-forward
 bindkey '\e[B' history-beginning-search-forward
+# biin ctrl+u to backward-kill-line
+bindkey \^U backward-kill-line

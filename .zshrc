@@ -110,6 +110,9 @@ bindkey '\e[B' history-beginning-search-forward
 # biin ctrl+u to backward-kill-line
 bindkey \^U backward-kill-line
 
+# Enable comman-not-found suggestions as in bash
+source /etc/zsh_command_not_found
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

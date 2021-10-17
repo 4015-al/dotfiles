@@ -3,8 +3,9 @@
 This repository contains ~~symlinks~~ [hard link][1], to my dotfiles. and [bound mounts][2] to my dotfile directories. created by running the code bellow from `.dotfiles` directory
 
 ```sh
+# files
 ln source_file link_file
-
+# folders
 mkdir mount_point_diretory
 mount -o bind source_directory mount_point_diretory
 ```

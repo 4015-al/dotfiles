@@ -1,6 +1,6 @@
-# 4015 dotfiles repository
+# 4015's dotfiles
 
-This repository contains ~~symlinks~~ [hard link][1], to my dotfiles. and [bound mounts][2] to my dotfile directories. created w/
+This repository contains ~~symlinks~~ [hard link][1], to my dotfiles. and [bound mounts][2] to my dotfile directories. created by running the code bellow from `.dotfiles` directory
 
 ```sh
 ln source_file link_file
